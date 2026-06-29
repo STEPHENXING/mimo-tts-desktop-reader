@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">MiMo Reader architecture</title>
+  <desc id="desc">The app is split into global hooks, UI widgets, controller logic, TTS engine, and audio player.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#0f766e"/>
+    </marker>
+    <style>
+      .bg{fill:#f8fafc}
+      .box{fill:#fff;stroke:#94a3b8;stroke-width:2;rx:12}
+      .core{fill:#ecfeff;stroke:#0891b2;stroke-width:2;rx:12}
+      .title{font:700 19px Arial, sans-serif;fill:#0f172a}
+      .text{font:14px Arial, sans-serif;fill:#475569}
+      .line{stroke:#0f766e;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="960" height="420"/>
+  <rect class="box" x="54" y="48" width="210" height="96"/>
+  <text class="title" x="159" y="86" text-anchor="middle">hook_service.py</text>
+  <text class="text" x="159" y="116" text-anchor="middle">Detect drag selection</text>
+  <rect class="box" x="54" y="260" width="210" height="96"/>
+  <text class="title" x="159" y="298" text-anchor="middle">ui_widgets/</text>
+  <text class="text" x="159" y="328" text-anchor="middle">Floating icon + orb + panel</text>
+  <rect class="core" x="376" y="154" width="208" height="112"/>
+  <text class="title" x="480" y="196" text-anchor="middle">main.py</text>
+  <text class="text" x="480" y="226" text-anchor="middle">Controller, QThread, chunking</text>
+  <rect class="box" x="696" y="48" width="210" height="96"/>
+  <text class="title" x="801" y="86" text-anchor="middle">tts_engine.py</text>
+  <text class="text" x="801" y="116" text-anchor="middle">MiMo API + style prompt</text>
+  <rect class="box" x="696" y="260" width="210" height="96"/>
+  <text class="title" x="801" y="298" text-anchor="middle">audio_player.py</text>
+  <text class="text" x="801" y="328" text-anchor="middle">Queue playback + pause</text>
+  <path class="line" d="M264 96 C320 96 330 178 376 190"/>
+  <path class="line" d="M264 308 C320 308 330 242 376 230"/>
+  <path class="line" d="M584 190 C640 178 646 96 696 96"/>
+  <path class="line" d="M584 230 C640 242 646 308 696 308"/>
+</svg>

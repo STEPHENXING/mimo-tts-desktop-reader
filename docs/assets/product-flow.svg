@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">MiMo Reader product flow</title>
+  <desc id="desc">Selection, floating action, chunked TTS generation, and queue playback.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <style>
+      .bg{fill:#f8fafc}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:14}
+      .title{font:700 20px Arial, sans-serif;fill:#0f172a}
+      .text{font:15px Arial, sans-serif;fill:#475569}
+      .arrow{stroke:#2563eb;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .badge{fill:#dbeafe;stroke:#93c5fd}
+    </style>
+  </defs>
+  <rect class="bg" width="960" height="300"/>
+  <rect class="card" x="36" y="62" width="180" height="150"/>
+  <text class="title" x="126" y="108" text-anchor="middle">1. Select</text>
+  <text class="text" x="126" y="140" text-anchor="middle">Drag text in any</text>
+  <text class="text" x="126" y="164" text-anchor="middle">Windows app</text>
+  <rect class="badge" x="82" y="180" width="88" height="28" rx="14"/>
+  <text class="text" x="126" y="199" text-anchor="middle">no copy yet</text>
+  <path class="arrow" d="M226 137 H298"/>
+  <rect class="card" x="308" y="62" width="180" height="150"/>
+  <text class="title" x="398" y="108" text-anchor="middle">2. Choose</text>
+  <text class="text" x="398" y="140" text-anchor="middle">Read selected</text>
+  <text class="text" x="398" y="164" text-anchor="middle">or read forward</text>
+  <path class="arrow" d="M498 137 H570"/>
+  <rect class="card" x="580" y="62" width="180" height="150"/>
+  <text class="title" x="670" y="108" text-anchor="middle">3. Stream</text>
+  <text class="text" x="670" y="140" text-anchor="middle">Split text into</text>
+  <text class="text" x="670" y="164" text-anchor="middle">small TTS jobs</text>
+  <path class="arrow" d="M770 137 H842"/>
+  <rect class="card" x="852" y="62" width="72" height="150"/>
+  <text class="title" x="888" y="112" text-anchor="middle">4.</text>
+  <text class="text" x="888" y="142" text-anchor="middle">Play</text>
+  <text class="text" x="888" y="166" text-anchor="middle">queue</text>
+</svg>
