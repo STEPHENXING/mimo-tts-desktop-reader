@@ -2,7 +2,7 @@
 
 一个 Windows 桌面全局朗读小工具：在浏览器、Word、PDF 阅读器等软件里划选文字，旁边弹出小浮窗，点击即可用小米 MiMo TTS 朗读。它支持长文分片、边生成边播放、暂停/继续、停止，以及音色、方言、情绪、语速配置。
 
-![Product flow](docs/assets/product-flow.svg)
+![Product flow](docs/assets/product-flow.png)
 
 ## 为什么做它
 
@@ -29,7 +29,7 @@
 
 ## 架构
 
-![Architecture](docs/assets/architecture.svg)
+![Architecture](docs/assets/architecture.png)
 
 主要文件：
 
@@ -117,7 +117,7 @@ Copy-Item config.example.json config.json
 
 跨软件读取选区没有统一可靠的 Windows API。很多工具会偷偷 `Ctrl+C`，这会覆盖用户原本的剪贴板。这个项目仍然使用兼容性最强的复制路径，但做了保护：
 
-![Clipboard safe copy](docs/assets/clipboard-safe-copy.svg)
+![Clipboard safe copy](docs/assets/clipboard-safe-copy.png)
 
 流程是：
 

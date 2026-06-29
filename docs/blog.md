@@ -10,7 +10,7 @@
 
 **MiMo TTS Desktop Reader**。
 
-![Product flow](assets/product-flow.svg)
+![Product flow](assets/product-flow.png)
 
 ## 它能做什么
 
@@ -48,7 +48,7 @@
 
 项目拆得比较直白：
 
-![Architecture](assets/architecture.svg)
+![Architecture](assets/architecture.png)
 
 - `hook_service.py`：看你有没有拖拽选中文字
 - `float_icon.py`：显示那个小小的朗读按钮
@@ -83,7 +83,7 @@
 
 所以我做了一个“借一下，用完还回去”的流程：
 
-![Clipboard safe copy](assets/clipboard-safe-copy.svg)
+![Clipboard safe copy](assets/clipboard-safe-copy.png)
 
 大概是这样：
 
